@@ -1,11 +1,32 @@
-body {
-    margin: 0 auto;
-    line-height: 1.7em;
+::-webkit-scrollbar{
+	width:17px;
+	background: #fafafa;
+}
+	::-webkit-scrollbar-thumb{
+		background: rgba(192, 174, 126, 0.6);
+	}
+::selection {
+	background: #b3d4fc;
+	text-shadow: none;
 }
 
+body {
+	font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-rendering: optimizeLegibility;
+    margin: 0 auto;
+    line-height: 1.7em;
+	color: #333;
+}
+
+.fifty{
+	width: 50%;
+}
 .l-box {
     padding: 1em;
 }
+	.l-box h3{
+		color: #4D4842;
+	}
 
 .header {
     margin: 0 0;
@@ -21,45 +42,96 @@ body {
             border: none;
             color: #aaa;
         }
+		.pure-menu-heading{
+			font-weight: bold;
+		}
+		.pure-menu.pure-menu-open.pure-menu-fixed{
+			border: 0;
+		}
 
 body .primary-button {
     background: #02a6eb;
     color: #fff;
 }
 
+.center{
+	text-align: center;
+	margin: auto;
+}
+
+.video-ribbon{
+	background: #c0ae7e;
+}
+	.video-ribbon-embed{
+		margin-bottom: -7px;
+	}
+	.twitter-timeline{
+		width: 100%;
+		height: 363px;
+	}
+
 .splash {
     margin: 2em auto 0;
-    padding: 3em 0.5em;
-    background: #eee;
+    padding: 3em 0.5em 1.3em;
+	background: rgb(238,238,238); /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VlZWVlZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmN2Y1ZWYiIHN0b3Atb3BhY2l0eT0iMC4zMyIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(247,245,239,0.33) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(247,245,239,0.33))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(247,245,239,0.33) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(247,245,239,0.33) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(247,245,239,0.33) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(247,245,239,0.33) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#54f7f5ef',GradientType=0 ); /* IE6-8 */
+
+	text-align: center;
 }
     .splash .splash-head {
+		color: #57544A;
         font-size: 300%;
         margin: 0em 0;
         line-height: 1.2em;
     }
     .splash .splash-subhead {
-        color: #999;
-        font-weight: 300;
-        line-height: 1.4em;
+        color: #747474;
+		font-weight: 300;
+		line-height: 1.4em;
+		padding: 0 23px;
     }
     .splash .primary-button {
+		opacity: 0.7;
+		background: #38C4FF;
+		transition: 1s;
         font-size: 150%;
+		margin-top: 17px;
+		/* splash button alternate "clear-style"
+		color: #333;
+		border: 3px solid #645E54;
+		border-radius: 3px;
+		background: #fff;
+		opacity: 0.9;
+		*/
     }
+		.splash .primary-button:hover{
+			opacity: 1;
+		}
 
-
-.content .content-subhead {
-    color: #999;
-    padding-bottom: 0.3em;
-    text-transform: uppercase;
-    margin: 0;
-    border-bottom: 2px solid #eee;
-    display: inline-block;
+.content{
+	padding: 77px 0;
 }
+	.content .content-subhead {
+		color: #C09729; 
+		padding-bottom: 0.3em;
+		text-transform: uppercase;
+		margin: 0;
+		border-bottom: 2px solid #CFC19A;
+		display: inline-block;
+	}
 
-.content .content-ribbon {
-    margin: 3em;
-    border-bottom: 1px solid #eee;
-}
+	.content .content-ribbon {
+		margin: 3em;
+		border-bottom: 1px solid #eee;
+	}
 
 .ribbon {
     background: #eee;
@@ -78,4 +150,10 @@ body .primary-button {
     text-align: center;
     padding: 1em;
     font-size: 80%;
+}
+
+@media screen and (max-width: 960px){
+	.fifty{
+		width: 100%;
+	}
 }
