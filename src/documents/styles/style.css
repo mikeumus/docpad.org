@@ -48,6 +48,11 @@ body {
     border-radius: 3px;
     margin: 3px 19px 0 0;
 }
+	.learning-centre-btn:hover{
+		color: rgb(56, 56, 213) !important;
+		background: #fff;
+		border: 1px solid rgb(120, 120, 195) !important;
+	}
 
 .fifty{
 	width: 50%;
@@ -112,7 +117,7 @@ body .primary-button {
 	}
 
 .splash {
-    margin: 2em auto 0;
+    margin: 1em auto 0;
     padding: 3em 0.5em 1.3em;
 	background: rgb(238,238,238); /* Old browsers */
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -138,6 +143,7 @@ body .primary-button {
 		font-weight: 300;
 		line-height: 1.4em;
 		padding: 0 23px;
+		font-size: 26px;
     }
     .splash .primary-button {
 		opacity: 0.7;
@@ -158,7 +164,7 @@ body .primary-button {
 		}
 
 .content{
-	padding: 77px 0;
+	padding: 77px 0 0;
 }
 	.content .content-subhead {
 		color: #C09729; 
@@ -168,7 +174,10 @@ body .primary-button {
 		border-bottom: 2px solid #CFC19A;
 		display: inline-block;
 	}
-
+	.what-is-docpad{
+		color: #777;
+		font-size: 15px;
+	}
 	.content .content-ribbon {
 		margin: 3em;
 		border-bottom: 1px solid #eee;
