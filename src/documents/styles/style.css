@@ -90,6 +90,7 @@ body {
         }
 		.pure-menu-heading{
 			font-weight: bold;
+			padding: 9px 20px 0 !important;
 		}
 		.pure-menu.pure-menu-open.pure-menu-fixed{
 			border: 0;
@@ -203,7 +204,30 @@ body .primary-button {
 }
 
 @media screen and (max-width: 960px){
+	.header .pure-menu{
+		background: #fff;
+	}
+	.splash-text{ 
+		margin: 2.2em 0 0; 
+	}
+		.splash .splash-subhead{
+			font-size: 22px;
+			line-height: 1.2em;
+			padding: 0 1em;
+		}
+	.video-ribbon{
+		overflow: hidden;
+	}
+	.l-box{
+		padding: 1em 0;
+	}
 	.fifty{
 		width: 100%;
+	}
+	.content{
+		padding: 0;
+	}
+	.learning-centre-btn{
+		opacity: 1 !important; 
 	}
 }
