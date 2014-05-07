@@ -41,11 +41,12 @@
 
 <!-- Markup -->
 <div class="content pure-g-r">
+	<div class="splash-bg"> </div>
 	<div class="header pure-u-1">
 		<div class="pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal">
 			<a class="pure-menu-heading" href="/">DocPad</a>
             <a class="learning-centre-btn opacity-zero float-right" href="http://learn.bevry.me">Learning Centre</a>
-			<!-- 
+			<!--
 			<ul>
 				<li class="pure-menu-selected"><a href="/">Home</a></li>
 				<li><a href="#">Tour</a></li>
