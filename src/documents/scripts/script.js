@@ -7,6 +7,7 @@ $(function(){
 			'z-index': '1'
 		});
 		*/
+		// $('.splash-bg').css('opacity',0.777);
         $('.learning-centre-btn').removeClass('opacity-zero');
     }
     function scrolledTop(){
@@ -16,6 +17,7 @@ $(function(){
 			'z-index': '-1'
 		});
 		*/
+		// $('.splash-bg').css('opacity',0.1);
         $('.learning-centre-btn').addClass('opacity-zero');
     }
     
