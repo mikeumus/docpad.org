@@ -1,11 +1,21 @@
 $(function(){
 	
     function scrolledPast(){
-		$('.pure-menu.pure-menu-open.pure-menu-fixed').css('height','inherit');
+		/*
+		$('.pure-menu.pure-menu-open.pure-menu-fixed').css({
+			'height': 'inherit',
+			'z-index': '1'
+		});
+		*/
         $('.learning-centre-btn').removeClass('opacity-zero');
     }
     function scrolledTop(){
-		$('.pure-menu.pure-menu-open.pure-menu-fixed').css('height','100%');
+		/*
+		$('.pure-menu.pure-menu-open.pure-menu-fixed').css({
+			'height': '100%',
+			'z-index': '-1'
+		});
+		*/
         $('.learning-centre-btn').addClass('opacity-zero');
     }
     
@@ -14,5 +24,8 @@ $(function(){
 			scrolledPast()
 			: scrolledTop();
 	}
+	
+	// Parallax starts
+	// src http://jsfiddle.net/9R4hZ/40/
 	
 });
