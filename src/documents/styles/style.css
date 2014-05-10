@@ -81,12 +81,12 @@ body {
 		padding: 0.5em;
 		/* IE9 SVG, needs conditional override of 'filter' to 'none' */
 			background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NmYzE5YSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlYWQ5YWYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-	background: -moz-linear-gradient(top,  rgba(207,193,154,1) 0%, rgba(234,217,175,0) 100%); /* FF3.6+ */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(234,217,175,0) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(207,193,154,1)), color-stop(100%,rgba(234,217,175,0))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  rgba(207,193,154,1) 0%,rgba(234,217,175,0) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  rgba(207,193,154,1) 0%,rgba(234,217,175,0) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  rgba(207,193,154,1) 0%,rgba(234,217,175,0) 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  rgba(207,193,154,1) 0%,rgba(234,217,175,0) 100%); /* W3C */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(234,217,175,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(234,217,175,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(234,217,175,0) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(234,217,175,0) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfc19a', endColorstr='#ead9af',GradientType=0 ); /* IE6-8 */
 	}
 
@@ -101,7 +101,6 @@ body {
 			padding: 9px 20px 0 !important;
 		}
 		.pure-menu .pure-menu-heading{
-			color: #fff;
 		}
 		.pure-menu.pure-menu-open.pure-menu-fixed{
 			height: 100%;
@@ -181,6 +180,7 @@ body .primary-button {
 		line-height: 1.4em;
 		padding: 0 23px;
 		font-size: 26px;
+		text-align: justify;
 	}
 	.splash a{
 		color: #E8F8FF;
