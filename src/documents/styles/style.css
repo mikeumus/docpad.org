@@ -40,6 +40,237 @@ a{
 	opacity: 1;
 }
 
+.plugin-imgs ul{
+	margin-top: -27px;
+}
+	.plugin-imgs li{
+		list-style: none;
+		display: inline-block;
+		padding: 13px;
+	}
+	.plugin-imgs a{
+		display: block;
+	}
+	.stylus-li{
+		margin: -3px 0 -9px -26px;
+		padding: 0 !important;
+		display: inline-block !important;
+	}
+	.browserify{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -1px -2px;
+		width: 131px;
+		height: 58px;
+	}
+	.chrome{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -138px -6px;
+		width: 44px;
+		height: 44px;
+	}
+	.tumblr{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -188px -6px;
+		width: 45px;
+		height: 45px;
+	}
+	.jade{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -239px -4px;
+		width: 83px;
+		height: 48px;
+	}
+	.coffee{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -331px -18px;
+		width: 192px;
+		height: 32px;
+	}
+	.eco{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -533px -19px;
+		width: 59px;
+		height: 25px;
+	}
+	.facebook{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -598px -2px;
+		width: 45px;
+		height: 45px;
+	}
+	.addthis{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -647px -1px;
+		width: 46px;
+		height: 45px;
+	}
+	.grunt{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -698px -1px;
+		width: 36px;
+		height: 48px;
+	}
+	.yeoman{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -738px 0;
+		width: 44px;
+		height: 48px;
+	}
+	.drive{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -787px -4px;
+		width: 48px;
+		height: 40px;
+	}
+	.handlebars{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -840px -3px;
+		width: 68px;
+		height: 45px;
+	}
+	.hapi{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -913px -1px;
+		width: 95px;
+		height: 67px;
+	}
+	.aloha{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -2px -64px;
+		width: 205px;
+		height: 37px;
+	}
+	.bem{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -215px -63px;
+		width: 48px;
+		height: 40px;
+	}
+	.bower{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -274px -61px;
+		width: 53px;
+		height: 46px;
+	}
+	.persona{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -372px -58px;
+		width: 172px;
+		height: 42px;
+	}
+	.stylus{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -553px -54px;
+		width: 100px;
+		height: 95px;
+	}
+	.beautify{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -668px -60px;
+		width: 128px;
+		height: 33px;
+	}
+	.ect{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -806px -67px;
+		width: 62px;
+		height: 25px;
+	}
+	.fest{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -879px -78px;
+		width: 68px;
+		height: 25px;
+	}
+	.quora{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -960px -75px;
+		width: 38px;
+		height: 43px;
+	}
+	.github{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -4px -111px;
+		width: 43px;
+		height: 42px;
+	}
+	.gplus{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -59px -111px;
+		width: 57px;
+		height: 36px;
+	}
+	.hacker-news{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -125px -107px;
+		width: 45px;
+		height: 45px;
+	}
+	.inspectlet{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -178px -118px;
+		width: 127px;
+		height: 35px;
+	}
+	.paypal{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -349px -112px;
+		width: 147px;
+		height: 38px;
+	}
+	.disqus{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -657px -100px;
+		width: 44px;
+		height: 44px;
+	}
+	.gemfury{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -708px -102px;
+		width: 34px;
+		height: 40px;
+	}
+	.analytics{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -757px -106px;
+		width: 43px;
+		height: 43px;
+	}
+	.gauges{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -808px -106px;
+		width: 132px;
+		height: 45px;
+	}
+	.reddit{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -955px -126px;
+		width: 44px;
+		height: 37px;
+	}
+	.debate{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -5px -162px;
+		width: 170px;
+		height: 43px;
+	}
+	.less{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -192px -160px;
+		width: 116px;
+		height: 47px;
+	}
+	.markdown{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -327px -157px;
+		width: 69px;
+		height: 42px;
+	}
+	.travis{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -424px -152px;
+		width: 96px;
+		height: 48px;
+	}
+	.twitter{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -526px -158px;
+		width: 51px;
+		height: 41px;
+	}
+	.reinvigorate{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -584px -158px;
+		width: 153px;
+		height: 41px;
+	}
+	.zopim{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -744px -158px;
+		width: 93px;
+		height: 38px;
+	}
+	.gittip{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -846px -159px;
+		width: 97px;
+		height: 30px;
+	}
+	.growl{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -953px -170px;
+		width: 57px;
+		height: 46px;
+	}
+	.mixpanel{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -7px -211px;
+		width: 131px;
+		height: 43px;
+	}
+	.flattr{
+		background: url('https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/plugins-sprite.png') no-repeat -145px -213px;
+		width: 121px;
+		height: 26px;
+	}
 .learning-centre-btn{
 	opacity: 1;
 	transition: 1s;
