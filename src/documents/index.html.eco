@@ -9,6 +9,7 @@ title: 'Home'
 	<div class="pure-g-r auto">
 		<div class="splash pure-u-1">
 			<div class="l-box splash-text">
+				<%- @partial('logo-svg') %>
 				<h1 class="splash-head">
 					A modern web prototyping platform. 
 				</h1>
@@ -68,6 +69,25 @@ title: 'Home'
 
 		</div>
 
+		<div class="pure-g-r content-ribbon center">
+
+			<div class="pure-u-1 auto">
+				<div class="l-box">
+					<br/>
+					<h4 class="content-subhead">We've got Plugins.</h4>
+					<p>
+						164 DocPad plugins <a href="https://www.npmjs.org/browse/keyword/docpad-plugin">published on NPM</a>.
+					</p>
+				</div>
+			</div>
+
+			<div class="pure-u-1 auto">
+				<a target="_blank" href="https://www.npmjs.org/package/docpad-plugin-browserify"><img src="https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/browserify.png" alt="browserify logo"/></a>
+			</div>
+
+		</div>
+
+		
 		<div class="pure-g-r">
 			<div class="pure-u-1-4">
 				<div class="l-box">
