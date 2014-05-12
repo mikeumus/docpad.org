@@ -12,7 +12,7 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://docpad.org"
+			url: "http://new-docpad.org"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: []
@@ -38,6 +38,7 @@ docpadConfig = {
 
 			# Styles
 			styles: [
+				"//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap-rtl.min.css"
 				"http://yui.yahooapis.com/pure/0.4.2/pure-min.css"
 				"/styles/style.css"
 			]
@@ -45,6 +46,7 @@ docpadConfig = {
 			# Scripts
 			scripts: [
 				"//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"
+				"//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js"
 				"/scripts/script.js"
 			]
 
