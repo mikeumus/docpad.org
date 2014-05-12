@@ -59,7 +59,7 @@
 
 	<div class="footer pure-u-1">
 		<p> 
-			Made with love by the <a href="http://bevry.me/">Bevry Team</a>. <br/>
+			Made with love by the <a href="http://bevry.me/">Bevry Team</a> &amp; friends. <br/>
 			updated <%= @site.date.toISOString() %> <br/>
 			&copy; DocPad <%- (new Date()).getFullYear() %> <br/>
 		</p>
