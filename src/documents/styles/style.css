@@ -15,7 +15,7 @@ body {
 	text-rendering: optimizeLegibility;
 	margin: 0 auto;
 	line-height: 1.7em;
-	color: #333;
+	color: #444;
 }
 
 a{
@@ -361,9 +361,13 @@ sub{
 		}
 
 body .primary-button {
+	text-decoration: none;
 	background: #02a6eb;
 	color: #fff;
 }
+	.sign-btn{
+		margin: 0 1em;
+	}
 
 .center{
 	text-align: center;
@@ -373,8 +377,16 @@ body .primary-button {
 	text-align: justify;
 }
 
-#docpad-love, #whats-docpad, #got-plugins{
+.docpad-love, .whats-docpad, .got-plugins, .docpad-support, .tech-stack, .four-points{
 	cursor: alias;
+}
+#docpad-love, #whats-docpad, #got-plugins, #docpad-support, #tech-stack, #four-points{
+	width: 1px;
+	height: 1px;
+	display: block;
+}
+.whats-docpad p{
+	color: #333;
 }
 .video-ribbon{
 }
@@ -447,6 +459,10 @@ body .primary-button {
 		color: #E8F8FF;
 		text-decoration: underline;
 	}
+		.splash a:hover{
+			color: rgba(0, 177, 255, 0.777);
+			text-decoration: none;
+		}
 	.splash .primary-button {
 		opacity: 0.7;
 		background: #38C4FF; 
@@ -484,25 +500,58 @@ body .primary-button {
 		background: url(https://googledrive.com/host/0B9LVk4xbDIJTNnJiQjdzejRuQm8/code-Screenshot-004.png) no-repeat;
 	}
 
+.inline-block li{
+	display: inline-block;
+}
+	.docpad-support img{
+		height: 128px;
+		padding: 22px;
+	}
+	.almero{
+		padding: 18px !important;
+		height: 82px !important;
+		background-color: #f75f2d;
+	}
+	.dockyard{
+		font-size: 33px;
+		color: #000;
+	}
+		.dockyard:hover{
+			font-size: 33px;
+			color: #000;
+			text-decoration: none;
+		}
+	.bevry-stuff li a{
+		text-decoration: none;
+		font-size: 27px;
+		padding: 13px;
+		color: #40758D;
+		font-weight: bold;
+		display: block;
+	}
+		.bevry-stuff li a:hover{
+			color: #009DE4;
+		}
+
 .content{
 	padding: 77px 0 0;
 	margin: auto;
 	max-width: 1080px;
 }
 	.content .content-subhead {
-		color: #C09729; 
+		color: #C09729;
 		padding-bottom: 0.3em;
-		text-transform: uppercase;
 		margin: 0;
-		border-bottom: 2px solid #CFC19A;
+		border-bottom: 2px solid rgba(207, 193, 154, 0.46);
 		display: inline-block;
+		font-size: 22px;
 	}
 	.what-is-docpad{
 		color: #777;
 		font-size: 15px;
 	}
-	.content .content-ribbon {
-		margin: 9em auto;
+	.content .content-ribbon{
+		margin: 7em auto 0;
 		background: rgba(250, 250, 250, 0.777);
 		/*
 		border-bottom: 33px solid rgba(207, 193, 154, 0.34);
@@ -510,9 +559,19 @@ body .primary-button {
 		border-bottom-right-radius: 13px;
 		*/
 	}
-		.content .content-ribbon:first-child{
-			margin: 2em auto 3em;
+		.docpad-love{
+			margin: 2em auto 0 !important;
 		}
+		.four-points{
+			padding: 1.5em 2em 0;
+			margin: 7em auto 3em !important;
+			font-size: 14px;
+			color: #777;
+		}
+			.four-points .content-subhead{
+				text-transform: none;
+				font-size: 21px;
+			}
 
 .ribbon {
 	background: #eee;

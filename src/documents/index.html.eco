@@ -27,15 +27,15 @@ title: 'Home'
 	</div>
 
 	<div class="content pure-u-1">
-		<div id="docpad-love" class="pure-g-r content-ribbon center">
+		<span id="docpad-love"></span>
+		<div class="pure-g-r content-ribbon center docpad-love">
 			<div class="pure-u-1-2 auto">
 				<div class="l-box">
 					<h4 class="content-subhead">We are loved by people.</h4>
 					<h3>Shoutouts to all the fans. We love you too.</h3>
-					<a target="_blank" href="https://github.com/bevry/docpad#people-love-docpad"><sub>more love</sub></a>
+					<a target="_blank" href="https://twitter.com/docpad/favorites"><sub>more love</sub></a>
 				</div>
 			</div>
-
 			<div class="pure-u-1-2 auto">
 				<div class="l-box center">
 					<a class="twitter-timeline" href="https://twitter.com/DocPad/favorites" data-chrome="noheader nofooter noborders noscrollbar transparent" data-widget-id="457025540390547456">
@@ -48,8 +48,8 @@ title: 'Home'
 			</div>
 		</div>
 
-		<div id="whats-docpad" class="pure-g-r content-ribbon center">
-
+		<span id="whats-docpad"></span>
+		<div class="pure-g-r content-ribbon center whats-docpad">
 			<div class="pure-u-1-2 auto">
 				<div class="l-box pure-u-2-3 justify what-is-docpad">
 					<br/>
@@ -69,7 +69,8 @@ title: 'Home'
 			</div>
 		</div>
 
-		<div id="got-plugins" class="pure-g-r content-ribbon center">
+		<span id="got-plugins"></span>
+		<div class="pure-g-r content-ribbon center got-plugins">
 			<div class="pure-u-1 auto">
 				<div class="l-box">
 					<br/>
@@ -82,17 +83,48 @@ title: 'Home'
 			<%- @partial('docpad-plugins') %>
 		</div>
 		
-		<div id="docpad-support" class="pure-g-r content-ribbon center">
+		<span id="docpad-support"></span>
+		<div class="pure-g-r content-ribbon center docpad-support">
 			<div class="pure-u-1 auto">
 				<div class="l-box">
 					<br/>
 					<h4 class="content-subhead">DocPad Support</h4>
-
+					<p>
+						<sub>These DocPad partners provide support, training courses, and consulting.</sub>
+					</p>
+					<ul class="inline-block">
+						<li>
+							<a href="http://myplanet.io/">
+								<img src="http://bevry.me/images/brands/myplanet.png" alt="myplanet"/>
+							</a>
+						</li>
+						<li>
+							<a href="http://almero.bg/index.html">
+								<img class="almero" src="http://almero.bg/images/logo.png" alt="almero"/>
+							</a>
+						</li>
+						<li>
+							<a href="http://bevry.me/">
+								<img src="http://refresh.bevry.me/images/bevry.svg" alt="Bevry"/>
+							</a>
+						</li>
+						<li>
+							<a class="dockyard" href="http://dockyard.com/">
+								DockYard
+							</a>
+						</li>
+						<li>
+							<a href="http://mdm.cc/">
+								<img src="https://googledrive.com/host/0B9LVk4xbDIJTQ2FMX0hWV0dPejg/icon_mdm-brazil.png" alt="MDM"/>
+							</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
 		
-		<div id="tech-stack" class="pure-g-r content-ribbon center">
+		<span id="tech-stack"></span>
+		<div class="pure-g-r content-ribbon center tech-stack">
 			<div class="pure-u-1 auto">
 				<div class="l-box">
 					<br/>
@@ -100,43 +132,64 @@ title: 'Home'
 					<p>
 						Made from Bevry stuff.
 					</p>
+					<ul class="inline-block bevry-stuff">
+						<li><a href="https://github.com/bevry/ambi">ambi</a></li>
+						<li><a href="https://github.com/bevry/caterpillar">caterpillar</a></li>
+						<li><a href="https://github.com/bevry/cson">cson</a></li>
+						<li><a href="https://github.com/bevry/extendr">extendr</a></li>
+						<li><a href="https://github.com/bevry/extract-opts">extract-opts</a></li>
+						<li><a href="https://github.com/bevry/envfile">envfile</a></li>
+						<li><a href="https://github.com/bevry/eachr">eachr</a></li>
+						<li><a href="https://github.com/bevry/taskgroup">taskgroup</a></li>
+						<li><a href="https://github.com/bevry/typechecker">typechecker</a></li>
+						<li><a href="https://github.com/bevry/getmac">getmac</a></li>
+						<li><a href="https://github.com/bevry/progressbar">progressbar</a></li>
+						<li><a href="https://github.com/bevry/lazy-require">lazy-require</a></li>
+						<li><a href="https://github.com/bevry/safefs">safefs</a></li>
+						<li><a href="https://github.com/bevry/safeps">safeps</a></li>
+						<li><a href="https://github.com/bevry/watchr">watchr</a></li>
+						<li><a href="https://github.com/bevry/query-engine">query-engine</a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
 		
-		<div class="pure-g-r">
+		<span id="four-points"></span>
+		<div class="pure-g-r content-ribbon four-points">
 			<div class="pure-u-1-4">
 				<div class="l-box">
-					<h3>Subheading</h3>
+					<h4 class="content-subhead">Sets you free</h4>
 					<p>
-						Donec suscipit, risus vel venenatis ornare, nibh massa ultrices diam, a elementum metus felis sit amet eros. Phasellus pellentesque euismod massa sed pellentesque.
+						DocPad removes limitations and closes the gap between experts and beginners. Designers and developers can create websites faster than ever before.
 					</p>
 				</div>
 			</div>
 
 			<div class="pure-u-1-4">
 				<div class="l-box">
-					<h3>Subheading</h3>
+					<h4 class="content-subhead">Community Driven</h4>
 					<p>
-						Donec suscipit, risus vel venenatis ornare, nibh massa ultrices diam, a elementum metus felis sit amet eros. Phasellus pellentesque euismod massa sed pellentesque.
+						Built on an open source foundation and supported by community maintained plugins, DocPad is getting better every single day.
 					</p>
 				</div>
 			</div>
 
 			<div class="pure-u-1-4">
 				<div class="l-box">
-					<h3>Subheading</h3>
+					<h4 class="content-subhead">It's Lightweight</h4>
 					<p>
-						Donec suscipit, risus vel venenatis ornare, nibh massa ultrices diam, a elementum metus felis sit amet eros. Phasellus pellentesque euismod massa sed pellentesque.
+						Tiny core with anything re-usable abstracted out into a module other systems can use
+Non-essential core functionality moved into opt-in plugins
 					</p>
 				</div>
 			</div>
 
 			<div class="pure-u-1-4">
 				<div class="l-box">
-					<h3>Subheading</h3>
+					<h4 class="content-subhead">and Robust!</h4>
 					<p>
-						Donec suscipit, risus vel venenatis ornare, nibh massa ultrices diam, a elementum metus felis sit amet eros. Phasellus pellentesque euismod massa sed pellentesque.
+						Abstraction friendly - code the way you want, how you want
+Use whatever language, pre-processor, markup, templating engine you want.
 					</p>
 				</div>
 			</div>
@@ -145,8 +198,8 @@ title: 'Home'
 		<div class="pure-g-r">
 			<div class="pure-u-1">
 				<div class="l-box ribbon">
-					<h2>Get started now.</h2>
-					<a href="#" class="pure-button primary-button">Sign up</a>
+					<h2>Join the Bevry Community.</h2>
+					<a href="#" class="pure-button primary-button sign-btn">Sign up</a>
 				</div>
 			</div>
 		</div>

@@ -23,14 +23,23 @@ $(function(){
 		$('.more-plugins-li').remove();
 	});
 	
-	$('#docpad-love').on('click',function(){
+	$('.docpad-love').on('click',function(){
 		window.location.hash = "#docpad-love";
 	});
-	$('#whats-docpad').on('click',function(){
+	$('.whats-docpad').on('click',function(){
 		window.location.hash = "#whats-docpad";
 	});
-	$('#got-plugins').on('click',function(){
+	$('.got-plugins').on('click',function(){
 		window.location.hash = "#got-plugins";
+	});
+	$('.docpad-support').on('click',function(){
+		window.location.hash = "#docpad-support";
+	});
+	$('.tech-stack').on('click',function(){
+		window.location.hash = "#tech-stack";
+	});
+	$('.four-points').on('click',function(){
+		window.location.hash = "#four-points";
 	});
 	
 	// Parallax starts

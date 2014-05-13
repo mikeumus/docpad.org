@@ -59,8 +59,8 @@
 
 	<div class="footer pure-u-1">
 		<p> 
+			Version 6.64.3 <br/>
 			Made with love by <a href="http://bevry.me/">Bevry</a> &amp; friends. <br/>
-			updated <%= @site.date.toISOString() %> <br/>
 			&copy; DocPad <%- (new Date()).getFullYear() %> <br/>
 		</p>
 	</div>
