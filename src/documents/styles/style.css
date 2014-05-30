@@ -507,6 +507,9 @@ body .primary-button {
 		height: 128px;
 		padding: 22px;
 	}
+	.bevry{
+		height: 97px !important;
+	}
 	.almero{
 		padding: 18px !important;
 		height: 82px !important;

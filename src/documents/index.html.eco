@@ -64,8 +64,7 @@ title: 'Home'
 			</div>
 
 			<div class="pure-u-1-2 auto video-ribbon">
-				<iframe class="video-ribbon-embed" width="420" height="315" src="//www.youtube-nocookie.com/embed/hvQCXDWh7Wg?rel=0" frameborder="0" allowfullscreen>
-				</iframe>
+				<iframe class="video-ribbon-embed" width="420" height="315" src="//www.youtube-nocookie.com/embed/hvQCXDWh7Wg?list=PLYVl5EnzwqsQs0tBLO6ug6WbqAbrpVbNf" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
 
@@ -95,7 +94,7 @@ title: 'Home'
 					<ul class="inline-block">
 						<li>
 							<a href="http://myplanet.io/">
-								<img src="http://bevry.me/images/brands/myplanet.png" alt="myplanet"/>
+								<img src="https://googledrive.com/host/0B9LVk4xbDIJTV0tWMlI4V2tYMlU/myplanet.png" alt="myplanet"/>
 							</a>
 						</li>
 						<li>
@@ -105,7 +104,7 @@ title: 'Home'
 						</li>
 						<li>
 							<a href="http://bevry.me/">
-								<img src="http://refresh.bevry.me/images/bevry.svg" alt="Bevry"/>
+								<img class="bevry" src="http://bevry.me/images/bevry-2013-outlines.svg" alt="Bevry"/>
 							</a>
 						</li>
 						<li>
